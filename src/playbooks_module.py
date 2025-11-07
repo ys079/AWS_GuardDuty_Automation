@@ -48,4 +48,3 @@ def playbook_s3_public_access(event: dict):
 
     return {"status": "S3_BLOCKED_AND_LOGGED", "incident_id": incident_id}
 
-```"
